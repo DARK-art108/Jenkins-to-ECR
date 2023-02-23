@@ -1,1 +1,1 @@
-Jenkins with AWS ECR pipeline
+Jenkins with AWS ECR pipeline - Full Doc comming soon!
