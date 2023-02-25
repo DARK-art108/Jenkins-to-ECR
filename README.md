@@ -1,18 +1,26 @@
-Jenkins with AWS ECR pipeline - Full Doc comming soon!
+Jenkins with AWS ECR pipeline
 
-sudo yum update
-sudo yum install docker
-sudo usermod -a -G docker ec2-user
-id ec2-user
+## Perform these commands on the EC2 instance
 
-Reload a Linux user's group assignments to docker w/o logout
+1. sudo yum update
+2. sudo yum install docker
+3. sudo usermod -a -G docker ec2-user
+4. id ec2-user
+5. newgrp docker
+7. sudo systemctl enable docker.service
+8. sudo systemctl start docker.service
+9. sudo systemctl status docker.service
+10. which git ---> set git path in Jenkins
+11. chmod 777 /var/run/docker.sock
 
-newgrp docker
-sudo systemctl enable docker.service
-sudo systemctl start docker.service
-sudo systemctl status docker.service
 
-which git ---> set git path 
-chmod 777 /var/run/docker.sock
+## Install Jenkins
 
 https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
+
+### Plugins to install in Jenkins
+
+1. Pipeline: AWS Steps
+2. CloudBees AWS Credentials Plugin
+3. All Git plugin
+4. Amazon ECR Pipeline
