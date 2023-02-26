@@ -25,6 +25,11 @@ https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
 2. CloudBees AWS Credentials Plugin
 3. All Git plugin
 4. Amazon ECR Pipeline
+5. Docker API Plugin
+6. Docker Commons Plugin
+7. Docker Pipeline
+8. Docker plugin
+9. Docker workflow
 
 
 GitHub Integration Plugin
