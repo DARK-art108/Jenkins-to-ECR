@@ -10,6 +10,7 @@ Jenkins with AWS ECR pipeline
 7. sudo systemctl enable docker.service
 8. sudo systemctl start docker.service
 9. sudo systemctl status docker.service
+* sudo yum install git
 10. which git ---> set git path in Jenkins
 11. chmod 777 /var/run/docker.sock
 
