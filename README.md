@@ -14,7 +14,7 @@ Jenkins with AWS ECR pipeline
 10. which git ---> set git path in Jenkins
 11. chmod 777 /var/run/docker.sock
 12. Make sure all the plug in need to install in Jenkins in order to run.
-
+13. Checking Update
 
 ## Install Jenkins
 
