@@ -15,7 +15,7 @@ pipeline {
         stage('Build') { 
             steps { 
                 script{
-                 app = docker.build("jenkins-test")
+                 app = docker.build("hello")
                 }
             }
         }
